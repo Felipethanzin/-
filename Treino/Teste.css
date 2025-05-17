@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nerko+One&family=Roboto+Slab:wght@100..900&display=swap');
+body{
+    background-color: black;
+    color: rgb(8, 248, 196);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin: 0rem;   
+    
+}
+header{
+    color: rgb(110, 3, 250);
+    background-color: rgb(0, 233, 241);
+    padding: 1rem;
+}
+main{
+    display: flex;
+    flex-direction:column;
+
+}
+section{
+    display: flex;
+    flex-direction: column;
+}
+input[type="radio"],input[type="checkbox"]{
+    margin: 0.5rem;
+    accent-color: rgb(0, 255, 200);
+
+}
+input[type="text"], input[type="password"] {
+    width: 20%;
+    padding: 0.2rem;
+    border: 2px solid rgb(0, 162, 255);
+    outline :none;
+    border-radius: 100px;
+
+}
+img{
+    width: 6rem;
+    border-radius: 20px;
+}
+
+
+
+
+
+
